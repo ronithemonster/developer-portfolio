@@ -83,10 +83,11 @@ line-height: 30px;
 margin-bottom: 30px;
 }
 .section-title{
-   
+   text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
 font-size: 35px;
+margin-bottom: 150px;
 
 }
 .about{
@@ -111,4 +112,33 @@ padding: 131px 157px;
     font-size: 20px;
     line-height: 30px;
     color: #474747;
+}
+/*my skill style*/
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill{
+    background: bisque;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-des{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+}
+.resume{
+    margin-top: 130px;
+    margin-bottom: 115px;
 }
